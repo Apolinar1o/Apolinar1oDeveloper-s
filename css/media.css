@@ -5,7 +5,7 @@ div#tv-radio {
     height: 600px;
     margin: auto;
     padding: 5px;
-    background: url("../_imagens/radio-tv.png" )no-repeat;
+    background: url("../imagens/radio-tv.png" )no-repeat;
     
 }
 audio#musica {
