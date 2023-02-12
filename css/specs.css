@@ -1,0 +1,14 @@
+@charset  "UTF 8";
+
+section#conteudo {
+    width: 100000000px;
+    margin: auto;
+}
+iframe#frame-spec {
+    width: 400px;
+    height: 310px;
+    border: none;
+    overflow:hidden;
+}
+
+  

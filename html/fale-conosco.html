@@ -5,11 +5,11 @@
 	<title>Tudo sobre o google glass</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
-	<link rel="stylesheet" href="_css/form.css"/>
+	<link rel="stylesheet" href="../css/form.css"/>
 	<style>
 		@font-face {	
 			font-family: 'FonteLogo';
-	        src: url("../_fonts/bubblegum-sans-regular.otf");
+	        src: url("../fonts/bubblegum-sans-regular.otf");
 }
 		body { 
 	
@@ -47,7 +47,7 @@
 	header#cabecalho {
 				border-bottom: 1px #606060 solid;
 				height: 150px;
-				background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
+				background: url("../imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
 			}
 		header#cabecalho h1 {
 			font-family: 'FonteLogo', sans-serif;
@@ -90,7 +90,7 @@
 	} 
 	nav#menu li:hover  {
 		background-color: #606060;
-		transition:  background color 5s;
+		transition:  background-color 5s;
 
 	}
 	 nav#menu h1 {
@@ -156,7 +156,7 @@
 	 }
 
 	</style>
-<script language="javascript" src="_javascript/funcoes.js"></script>
+<script language="javascript" src="../javascript/funcoes.js"></script>
 <script>
     function calc_Total(){
         var qtd = parseInt(document.getElementById('cQtd').value)
@@ -178,18 +178,19 @@
 	<h2>A revolução do Google está chegando</h2>
 	</hgroup>
 	
-	<img id="icone" src="_imagens/contato.png">
+	<img id="icone" src="../imagens/contato.png">
 
 
-<nav id="menu" >
-	<ul type= "disk">
-	<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="index.html" target="_blank">Home</a></li>
- 	<li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="specs.html" target="_blank">Especificações</a></li>
-	<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a  href="fotos.html" target="_blank">Fotos</a></li>
- 	<li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="multimidia.html" target="_blank">Multimídia</a></li>
-	<li onmouseover="mudaFoto('_imagens/contato.png')"><a href="fale-conosco.html">Fala conosco</a></li>
-</ul>
-</nav>
+	<nav id="menu" >
+		<ul type= "disk">
+		<li onmouseover="mudaFoto('../imagens/home.png')" onmouseout="mudaFoto('../imagens/especificacoes.png')"><a href="../index.html" target="_blank">Home</a></li>
+		 <li onmouseover="mudaFoto('../imagens/especificacoes.png')" onmouseout="mudaFoto('../imagens/especificacoes.png')"><a href="./specs.html" target="_blank">Especificações</a></li>
+		<li onmouseover="mudaFoto('../imagens/fotos.png')" onmouseout="mudaFoto('../imagens/especificacoes.png')"><a  href="./fotos.html" target="_blank">Fotos</a></li>
+		 <li onmouseover="mudaFoto('../imagens/multimidia.png')" onmouseout="mudaFoto('../imagens/especificacoes.png')"><a href="./multimidia.html" target="_blank">Multimídia</a></li>
+		<li onmouseover="mudaFoto('../imagens/contato.png')" onmouseout="mudaFoto('../imagens/especificacoes.png')"><a href="./fale-conosco.html">Fala conosco</a></li>
+	</ul>
+	</nav>
+	
 	</header>
 
 <section id="corpo-full">
@@ -258,7 +259,7 @@
     <p><input type="text" name="tTot" id="cTot" readonly><label for="cPreço" >Preço Total: R$</label></p>
 
 </fieldset>
-<input type="image" src="_imagens/botao-enviar.png">
+<input type="image" src="../imagens/botao-enviar.png">
 </form>
 
 

@@ -5,11 +5,12 @@
 	<title>Tudo sobre o google glass</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
-	<link rel="stylesheet" href="_css/media.css"/>
+	
+	<link rel="stylesheet" href="../css/specs.css"/>
 	<style>
 		@font-face {	
 			font-family: 'FonteLogo';
-	        src: url("../_fonts/bubblegum-sans-regular.otf");
+	        src: url("../fonts/bubblegum-sans-regular.otf");
 }
 		body { 
 	
@@ -90,7 +91,7 @@
 	} 
 	nav#menu li:hover  {
 		background-color: #606060;
-		transition:  background color 5s;
+		transition:  background-color 5s;
 
 	}
 	 nav#menu h1 {
@@ -157,7 +158,7 @@
 
 	</style>
 </head>
-<script language="javascript" src="_javascript/funcoes.js"></script>
+<script language="javascript" src="../javascript/funcoes.js"></script>
 <body>
 
 <div id="interface">
@@ -170,32 +171,43 @@
 	<h2>A revolução do Google está chegando</h2>
 	</hgroup>
 	
-	<img id="icone" src="_imagens/multimidia.png">
+	<img id="icone" src="../imagens/especificacoes.png">
 
 
 <nav id="menu" >
 	<ul type= "disk">
-	<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="index.html" target="_blank">Home</a></li>
- 	<li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="specs.html" target="_blank">Especificações</a></li>
-	<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a  href="fotos.html" target="_blank">Fotos</a></li>
- 	<li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html" target="_blank">Multimídia</a></li>
-	<li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fale-conosco.html">Fala conosco</a></li>
+	<li onmouseover="mudaFoto('../imagens/home.png')" onmouseout="mudaFoto('../imagens/especificacoes.png')"><a href="../index.html" target="_blank">Home</a></li>
+ 	<li onmouseover="mudaFoto('../imagens/especificacoes.png')" onmouseout="mudaFoto('../imagens/especificacoes.png')"><a href="./specs.html" target="_blank">Especificações</a></li>
+	<li onmouseover="mudaFoto('../imagens/fotos.png')" onmouseout="mudaFoto('../imagens/especificacoes.png')"><a  href="./fotos.html" target="_blank">Fotos</a></li>
+ 	<li onmouseover="mudaFoto('../imagens/multimidia.png')" onmouseout="mudaFoto('../imagens/especificacoes.png')"><a href="./multimidia.html" target="_blank">Multimídia</a></li>
+	<li onmouseover="mudaFoto('../imagens/contato.png')" onmouseout="mudaFoto('../imagens/especificacoes.png')"><a href="./fale-conosco.html">Fala conosco</a></li>
 </ul>
 </nav>
 	</header>
-    
 
-<div id="tv-radio">
-    <audio id="musica" controls="controls">
-        <source src="_media/2009-lovers-carvings-bibio.mp3"type="audio/mpeg">
-    </audio>
-    
-    <video id="filme" controls="controls" poster="_imagens/video-mini03.jpg">
-            <source src ="_media/getting-started.mp4" type="video/mp4"/>
-    </video>
-    
- 
-</div>
+<section id="corpo-full">
+	<hgroup> 
+		<h3>Glass > Especificações</h3>
+		<h1>Raio-X no Google Glass</h1>
+		<h2>por Antônio Apolinário</h2>
+		<h3>Atualizado em 21/Dez/2022</h3>
+		</hgroup> Glass > Especificações
+
+
+
+
+<P>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</P>
+<section id="conteudo">
+	<img src="../imagens/glass-esquema-marcado.jpg" usemap="#meumapa" alt="">
+	<map name="meumapa">
+		<area shape="rect" coords="180, 212, 268,244 "href ="./google-glass.html#tela"target="janela"/>
+		<area shape="circle" coords="158,243,12"href="./google-glass.html#camera" target="janela"/>
+		<area shape="circle" coords="76,51,10" href="./google-glass.html#sensores" target="janela"/>
+		<area shape="poly" coords="27,144,82,216,82,249,27,167"href="google-glass.html#bateria"target="janela"/>
+	</map>
+	<iframe src="./google-glass.html" name="janela" id="frame-spec" scrolling="no"></iframe>
+	
+</section>
 
 </section>
 
